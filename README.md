@@ -1,3 +1,20 @@
 # Palworld-Handler-Fix
-Palworld Handler Fix for players using 2 xbox controllers where inputs are not being detected by at least one controller.
-replace with nucleus old handler
+Palworld Nucleus Co-op controller fix
+
+Issue:
+Controller 2 was not detected / after changing layout, Player 1 stopped detecting / controller routing broke.
+
+Fix:
+Changed the Palworld handler XInput setup.
+
+Tested with:
+- Palworld Steam version
+- Nucleus Co-op version: 2.4.1
+- Windows 11
+- Two Xbox controllers
+- Steam Input disabled
+- Overwolf/TH.GL closed
+
+Notes:
+Do not manually place xinput DLLs in the Palworld folder.
+Let Nucleus handle the XInput DLL.
