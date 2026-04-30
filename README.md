@@ -15,6 +15,7 @@ Tested with:
 - Steam Input disabled
 - Overwolf/TH.GL closed
 
+Replace with current handler by loading with Nucleus.
 Notes:
 Do not manually place xinput DLLs in the Palworld folder.
 Let Nucleus handle the XInput DLL.
